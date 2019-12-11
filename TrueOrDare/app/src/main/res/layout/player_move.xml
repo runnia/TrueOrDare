@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/gameTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="423dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:text="ХОД ИГРОКА" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="351dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        tools:text="АНГЕЛИНА" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="201dp"
+        android:layout_marginBottom="62dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_small"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingTop="6dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp"
+        android:stateListAnimator="@null"
+        android:text="ПРАВДА"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/buttonPreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="63dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_small"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingTop="6dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="8dp"
+        android:stateListAnimator="@null"
+        android:text="ДЕЙСТВИЕ"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="354dp"
+        android:layout_marginBottom="677dp"
+        app:srcCompat="@drawable/arrow" />
+
+
+</RelativeLayout>
